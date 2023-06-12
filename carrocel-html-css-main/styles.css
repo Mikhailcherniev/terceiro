@@ -6,12 +6,12 @@ body {
 }
 
 
-.img{
+.img {
     flex: 1;
     height: 100%;
     transform: skew(5deg);
     cursor: pointer;
-    margin: 0  1px;
+    margin: 0 1px;
     transition: all 0.3s;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,45 +19,47 @@ body {
     position: relative;
 }
 
-.img1{
-    background-image: url("https://bnetcmsus-a.akamaihd.net/cms/gallery/4QMO7C0F0MFB1649353626696.jpg");
+.img1 {
+    background-image: url("circuitRoyal.webp");
     height: 100vh;
 }
 
-.img02{
-    background-image: url('https://i.redd.it/0i9ugebxt5g81.jpg');
+.img02 {
+    background-image: url('dorado.jpg');
     height: 100vh;
 }
 
-.img03{
-    background-image: url('https://static.wikia.nocookie.net/overwatch_gamepedia/images/9/93/Havana.png/revision/latest?cb=20190512033804');
+.img03 {
+    background-image: url('Havana.webp');
     height: 100vh;
 }
 
-.img04{
-    background-image: url('https://static.wikia.nocookie.net/overwatch_gamepedia/images/e/e3/Junkertown.jpg/revision/latest?cb=20170822090741');
+.img04 {
+    background-image: url('Junkertown.webp');
     height: 100vh;
 }
 
-.img5{
-    background-image: url('https://www.digitaltrends.com/wp-content/uploads/2018/05/ovr_rialto_presskit_new_jpa_018.jpg?p=1');
+.img5 {
+    background-image: url('Rialto.webp');
     height: 100vh;
 }
 
-.img6{
-    background-image: url('https://static.wikia.nocookie.net/overwatch_gamepedia/images/a/a6/Route_66.jpg/revision/latest?cb=20180520050707');
-    height: 100vh;
-}
-.img7{
-    background-image: url('https://i0.wp.com/news.xbox.com/en-us/wp-content/uploads/sites/2/2022/12/OVR_Season2PK_ShambaliBeauty_DD_004-61d1ce4fb3f75a255345.jpg?resize=1920%2C1080&ssl=1');
+.img6 {
+    background-image: url('Route_66.webp');
     height: 100vh;
 }
 
-.img8{
-    background-image: url('https://overwatchers.com.br/wp-content/uploads/2016/05/Tela_Gibraltar.jpg');
+.img7 {
+    background-image: url('monasterioShambali.webp');
     height: 100vh;
 }
-.img p{
+
+.img8 {
+    background-image: url('extreitoGibraltar.jpg');
+    height: 100vh;
+}
+
+.img p {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -71,37 +73,37 @@ body {
     white-space: nowrap;
 }
 
-.img-slide:hover .img{ 
+.img-slide:hover .img {
     transform: skew(0);
 }
 
-.img:hover{
+.img:hover {
     flex: 5;
 }
 
-.img:hover p{
+.img:hover p {
     background-color: #2c2c2c;
     transform: rotate(0deg);
 }
 
-.img-slide{
+.img-slide {
     position: absolute;
-    top: 700px;
+    top: 1000px;
     width: 74%;
-    height: auto;
+    height: 150px;
     display: flex;
     margin-top: 0;
     align-items: center;
-    
+
 }
 
 
-.img2{
+.img2 {
     flex: 1;
     height: 100%;
     transform: skew(5deg);
     cursor: pointer;
-    margin: 0  2px;
+    margin: 0 2px;
     transition: all 0.3s;
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,40 +111,42 @@ body {
     position: relative;
 }
 
-.img11{
-    background-image: url("https://cdn.mos.cms.futurecdn.net/735yKiGdxHiqyRTRMqs3G6.png");
+.img11 {
+    background-image: url("peninsulaAntartica.webp");
     height: 100vh;
 }
 
-.img21{
-    background-image: url('https://static.wikia.nocookie.net/overwatch_gamepedia/images/a/aa/Eichenwalde.png/revision/latest?cb=20190412043329');
+.img21 {
+    background-image: url('Eichenwalde.webp');
     height: 100vh;
 }
 
-.img31{
-    background-image: url('https://static.wikia.nocookie.net/overwatch/images/9/98/Hollywood_screenshot_4.jpg/revision/latest?cb=20160605011629');
+.img31 {
+    background-image: url('Hollywood.webp');
     height: 100vh;
 }
 
-.img41{
-    background-image: url('https://static.wikia.nocookie.net/overwatch/images/7/75/Kings_Row_007.jpg/revision/latest?cb=20141108195824');
+.img41 {
+    background-image: url('KingsRow.webp');
     height: 100vh;
 }
 
-.img51{
-    background-image: url('https://static.wikia.nocookie.net/overwatch_gamepedia/images/0/0b/MidtownLoading.png/revision/latest/scale-to-width-down/1200?cb=20230423062028');
+.img51 {
+    background-image: url('MidTown.webp');
     height: 100vh;
 }
 
-.img61{
-    background-image: url('https://static.wikia.nocookie.net/overwatch/images/e/eb/Numbani_screenshot_5.jpg/revision/latest?cb=20160504022045');
+.img61 {
+    background-image: url('Numbani.webp');
     height: 100vh;
 }
-.img71{
-    background-image: url('https://cdna.artstation.com/p/assets/images/images/054/716/932/large/thiago-klafke-thiagoklafke-ow2-paraiso001.jpg?1665182559');
+
+.img71 {
+    background-image: url('Paraiso.webp');
     height: 100vh;
 }
-.img2 p{
+
+.img2 p {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -156,22 +160,97 @@ body {
     white-space: nowrap;
 }
 
-.img-slide2:hover .img{ 
+.img-slide2:hover .img {
     transform: skew(0);
 }
 
-.img2:hover{
+.img2:hover {
     flex: 5;
 }
 
-.img2:hover p{
+.img2:hover p {
     background-color: #2c2c2c;
     transform: rotate(0deg);
 }
 
-.img-slide2{
+.img-slide2 {
     position: absolute;
-    top: 1700px;
+    top: 1970px;
+    width: 75%;
+    height: 150px;
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+}
+
+.img3 {
+    flex: 1;
+    height: 100%;
+    transform: skew(5deg);
+    cursor: pointer;
+    margin: 0 2px;
+    transition: all 0.3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img12 {
+    background-image: url("Busan.webp");
+    height: 100vh;
+}
+
+.img22 {
+    background-image: url('Lijiang.webp');
+    height: 100vh;
+}
+
+.img32 {
+    background-image: url('Nepal.webp');
+    height: 100vh;
+}
+
+.img42 {
+    background-image: url('Oasis.webp');
+    height: 100vh;
+}
+
+.img52 {
+    background-image: url('Ilios.webp');
+    height: 100vh;
+}
+
+.img3 p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: #333;
+    transform: rotate(-90deg);
+    transition: all 0.3s;
+    transform-origin: 0% 0%;
+    color: #ffffff;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.img-slide3:hover .img {
+    transform: skew(0);
+}
+
+.img3:hover {
+    flex: 5;
+}
+
+.img3:hover p {
+    background-color: #2c2c2c;
+    transform: rotate(0deg);
+}
+
+.img-slide3 {
+    position: absolute;
+    top: 2830px;
     width: 75%;
     height: 50vh;
     display: flex;
@@ -179,12 +258,12 @@ body {
     align-items: center;
 }
 
-.img3{
+.img4 {
     flex: 1;
     height: 100%;
     transform: skew(5deg);
     cursor: pointer;
-    margin: 0  2px;
+    margin: 0 2px;
     transition: all 0.3s;
     background-repeat: no-repeat;
     background-size: cover;
@@ -192,32 +271,22 @@ body {
     position: relative;
 }
 
-.img12{
-    background-image: url("https://static.wikia.nocookie.net/overwatch_gamepedia/images/0/09/Overwatch_Busan.jpg/revision/latest?cb=20190412043201");
+.img13 {
+    background-image: url("Busan.webp");
     height: 100vh;
 }
 
-.img22{
-    background-image: url('https://static.wikia.nocookie.net/overwatch/images/2/20/Lijiang_screenshot_8.jpg/revision/latest?cb=20160521221650');
+.img23 {
+    background-image: url('Lijiang.webp');
     height: 100vh;
 }
 
-.img32{
-    background-image: url('https://static.wikia.nocookie.net/overwatch_gamepedia/images/f/f3/Nepal_loading_screen.jpg/revision/latest?cb=20190412043102');
+.img33 {
+    background-image: url('Nepal.webp');
     height: 100vh;
 }
 
-.img42{
-    background-image: url('https://static.wikia.nocookie.net/overwatch_gamepedia/images/f/fc/Oasis.jpg/revision/latest?cb=20180520062749');
-    height: 100vh;
-}
-
-.img52{
-    background-image: url('https://staticg.sportskeeda.com/editor/2022/11/e84de-16691928301525-1920.jpg');
-    height: 100vh;
-}
-
-.img3 p{
+.img4 p {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -231,89 +300,24 @@ body {
     white-space: nowrap;
 }
 
-.img-slide3:hover .img{ 
+.img-slide4:hover .img {
     transform: skew(0);
 }
 
-.img3:hover{
+.img4:hover {
     flex: 5;
 }
 
-.img3:hover p{
+.img4:hover p {
     background-color: #2c2c2c;
     transform: rotate(0deg);
 }
 
-.img-slide3{
+.img-slide4 {
     position: absolute;
-    top: 2700px;
-    width: 75%;
-    height: 50vh;
-    display: flex;
-    margin-top: 0;
-    align-items: center;
-}
-
-.img4{
-    flex: 1;
-    height: 100%;
-    transform: skew(5deg);
-    cursor: pointer;
-    margin: 0  2px;
-    transition: all 0.3s;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.img13{
-    background-image: url("https://static.wikia.nocookie.net/overwatch_gamepedia/images/0/09/Overwatch_Busan.jpg/revision/latest?cb=20190412043201");
-    height: 100vh;
-}
-
-.img23{
-    background-image: url('https://static.wikia.nocookie.net/overwatch/images/2/20/Lijiang_screenshot_8.jpg/revision/latest?cb=20160521221650');
-    height: 100vh;
-}
-
-.img33{
-    background-image: url('https://static.wikia.nocookie.net/overwatch_gamepedia/images/f/f3/Nepal_loading_screen.jpg/revision/latest?cb=20190412043102');
-    height: 100vh;
-}
-
-.img4 p{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: 10px;
-    background-color: #333;
-    transform: rotate(-90deg);
-    transition: all 0.3s;
-    transform-origin: 0% 0%;
-    color: #ffffff;
-    text-transform: uppercase;
-    white-space: nowrap;
-}
-
-.img-slide4:hover .img{ 
-    transform: skew(0);
-}
-
-.img4:hover{
-    flex: 5;
-}
-
-.img4:hover p{
-    background-color: #2c2c2c;
-    transform: rotate(0deg);
-}
-
-.img-slide4{
-    position: absolute;
-    top: 3700px;
+    top: 3850px;
     width: 50%;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     margin-top: 0;
     align-items: center;
@@ -419,3 +423,110 @@ background {
     left: 1200px;
     top: 37px;
 }
+
+.barra1{
+    top: 540px;
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 1400px;
+    left: 5px;
+
+
+
+}
+
+.barra2{
+    top: 1500px;
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 1400px;
+    left: 115px;
+}
+
+
+.barra3{
+    top: 2470px;
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 1400px;
+    left: 5px;
+}
+
+.barra4{
+    top: 3450px;
+    position: absolute;
+    display: flex;
+    height: 150px;
+    width: 1400px;
+    left: 115px;
+}
+
+.entrando{
+    position: absolute;
+    display: flex;
+    height: 25px;
+    width: 200px;
+    left: 155px;
+    top: 3460px;
+    
+}
+
+.viajando{
+    position: absolute;
+    display: flex;
+    height: 25px;
+    width: 200px;
+    left: 1150px;
+    top: 2480px;
+    
+}
+
+.aterissando{
+    position: absolute;
+    display: flex;
+    height: 25px;
+    width: 200px;
+    left: 170px;
+    top: 1505px;
+    
+}
+
+.bemvindo{
+    position: absolute;
+    display: flex;
+    height: 25px;
+    width: 200px;
+    left: 1150px;
+    top: 545px;
+    
+}
+
+.mapa{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    width: 400px;
+    left: 70px;
+    top: 590px;
+    
+}
+
+.hibrido{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    width: 400px;
+    left: 1040px;
+    top: 1545px;
+    
+}
+
+
+
+
+
+
+
